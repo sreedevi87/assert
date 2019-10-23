@@ -18,6 +18,7 @@ public void test1() {
 	//softassert
 	sa.assertEquals(true, false,"validating home page failed");
 	sa.assertAll();
+	system.out.println("learning pull request edited in github");
 	
 }
 @Test
@@ -26,6 +27,7 @@ public void test2() {
 	System.out.println("validating deals page");
 	sa.assertEquals(true, true,"validating deals page failed");
 	sa.assertAll();
+	system.out.println("learning pull request edited in github");
 }
 
 }
